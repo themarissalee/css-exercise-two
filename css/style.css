@@ -1,7 +1,34 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000000;
 }
+
+body {
+  font-size: 17px;
+}
+figcaption {
+  font-size: 15px;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+h3 {
+  font-size:1.25em;
+  line-height: 1em;
+}
+.author {
+  font-weight: bold;
+}
+p {
+  font-size: 100%;
+  margin: 1em;
+  line-height: 1.25em;
+}
+
+
+
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -35,11 +62,21 @@ nav {
 ul {
   list-style-type: none;
   float: right;
+  text-decoration: none;
 }
 
 li {
   float: right;
   padding: 30px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  a:link { color:#0070BB; }
+  a:visited { color:#0070BA; }
+  a:hover { color:#0070BC; }
+  a:active { color:#0070BD; }
 }
 
 article {
