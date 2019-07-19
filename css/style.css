@@ -23,7 +23,7 @@ h3 {
 }
 p {
   font-size: 100%;
-  margin: 1em;
+  margin: 1em 0;
   line-height: 1.25em;
 }
 
@@ -31,7 +31,7 @@ p {
 
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,85);
   float: left;
   position: fixed;
   width: 100%;
@@ -72,10 +72,10 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none;}
   a:link { color:#0070BB; }
   a:visited { color:#0070BA; }
-  a:hover { color:#0070BC; }
+  a:hover { color:#FFFFFF; }
   a:active { color:#0070BD; }
 }
 
